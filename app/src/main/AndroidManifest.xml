@@ -3,6 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+<<<<<<< HEAD
+=======
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+>>>>>>> 3a51f5c (Initial Update)
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"

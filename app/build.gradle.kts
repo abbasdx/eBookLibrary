@@ -56,6 +56,10 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.firebase.database)
     implementation(libs.litert.support.api)
+<<<<<<< HEAD
+=======
+    implementation(libs.firebase.auth)
+>>>>>>> 3a51f5c (Initial Update)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -77,6 +81,10 @@ dependencies {
 
     implementation ("io.github.grizzi91:bouquet:1.1.2")
 
+<<<<<<< HEAD
+=======
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.1")
+>>>>>>> 3a51f5c (Initial Update)
 
 
     implementation(libs.androidx.material.icons.extended.android)

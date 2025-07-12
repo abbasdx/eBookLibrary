@@ -22,4 +22,17 @@ sealed class Routes{
     data class PdfViewScreen(
         val Bookurl: String
     )
+<<<<<<< HEAD
+=======
+
+    @Serializable
+    object login
+
+    @Serializable
+    object register
+
+    @Serializable
+    object OnboardingScreen
+
+>>>>>>> 3a51f5c (Initial Update)
 }

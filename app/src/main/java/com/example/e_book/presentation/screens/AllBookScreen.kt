@@ -29,6 +29,14 @@ import androidx.navigation.NavController
 import coil3.compose.SubcomposeAsyncImage
 import com.example.e_book.presentation.nav.Routes
 import com.example.e_book.viewModel.MyViewModel
+<<<<<<< HEAD
+=======
+import android.app.DownloadManager
+import android.content.Context
+import android.net.Uri
+import android.os.Environment
+import android.widget.Toast
+>>>>>>> 3a51f5c (Initial Update)
 
 @Composable
 fun AllBookScreen(viewModels: MyViewModel = hiltViewModel(), navController: NavController) {

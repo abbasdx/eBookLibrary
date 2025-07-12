@@ -1,5 +1,9 @@
 package com.example.e_book.presentation.screens
 
+<<<<<<< HEAD
+=======
+import android.R
+>>>>>>> 3a51f5c (Initial Update)
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -24,6 +28,10 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+<<<<<<< HEAD
+=======
+import androidx.compose.ui.graphics.Color
+>>>>>>> 3a51f5c (Initial Update)
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.key.Key.Companion.Tab
 import androidx.compose.ui.text.font.FontWeight
@@ -51,7 +59,11 @@ fun TabScreen(navController: NavHostController) {
             modifier = Modifier.fillMaxSize().padding(8.dp)
         ) {
             TabRow(
+<<<<<<< HEAD
                 selectedTabIndex = pagerState.currentPage
+=======
+                selectedTabIndex = pagerState.currentPage,
+>>>>>>> 3a51f5c (Initial Update)
             ){
                 tabs.forEachIndexed{
                         index, tabItem ->
@@ -76,7 +88,11 @@ fun TabScreen(navController: NavHostController) {
                             }
 
                         },
+<<<<<<< HEAD
                         selectedContentColor = MaterialTheme.colorScheme.primary,
+=======
+                        selectedContentColor = Color(0xFF007BFF),
+>>>>>>> 3a51f5c (Initial Update)
                         unselectedContentColor = MaterialTheme.colorScheme.onSurface
                     )
                 }

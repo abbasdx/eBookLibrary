@@ -12,6 +12,10 @@ googleGmsGoogleServices = "4.4.2"
 firebaseDatabase = "21.0.0"
 litertSupportApi = "1.1.2"
 materialIconsExtendedAndroid = "1.7.8"
+<<<<<<< HEAD
+=======
+firebaseAuth = "23.2.0"
+>>>>>>> 3a51f5c (Initial Update)
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +35,10 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 litert-support-api = { group = "com.google.ai.edge.litert", name = "litert-support-api", version.ref = "litertSupportApi" }
+<<<<<<< HEAD
+=======
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+>>>>>>> 3a51f5c (Initial Update)
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

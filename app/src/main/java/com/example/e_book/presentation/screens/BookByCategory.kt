@@ -44,6 +44,8 @@ fun BookByCategory (
     navController: NavController
 ){
     val state = viewModel.GetAllBookByCategoryState.collectAsState()
+    git add .
+    git commit -m "Initial Update"
 
     LaunchedEffect(key1 = Unit) {
         viewModel.getAllBookByCategory(categoryName)

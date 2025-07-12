@@ -3,11 +3,19 @@
   <component name="deploymentTargetSelector">
     <selectionStates>
       <SelectionState runConfigName="app">
+<<<<<<< HEAD
         <option name="selectionMode" value="DIALOG" />
         <DropdownSelection timestamp="2025-03-10T15:16:22.060222200Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\iamab\.android\avd\Medium_Phone_API_35.avd" />
+=======
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-04-22T16:23:34.541269300Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\iamab\.android\avd\Pixel_8_Pro_API_35.avd" />
+>>>>>>> 3a51f5c (Initial Update)
             </handle>
           </Target>
         </DropdownSelection>
